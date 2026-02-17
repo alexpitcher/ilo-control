@@ -36,7 +36,14 @@ A robust Python-based toolset for managing HPE servers via iLO 5/6 Redfish API. 
     ```
 
 3.  **Configure environment:**
-    Create a `.env` file in the project root. You can copy the structure below:
+    Create a `.env` file in the project root. You can copy the structure from the provided `.env.example`:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Or manually create it:
+
 
     ```env
     # .env
